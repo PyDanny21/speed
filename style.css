@@ -207,7 +207,7 @@ nav{
 .profiles .account{
     width: 45px;
     /* height: 45px; */
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .dropdown{
@@ -854,20 +854,22 @@ footer{
     /* Productpage */
     .category {
         margin: 30px auto;
+        display: none;
     }
     .Product-container{
         flex-direction: column;
         width: 100%;
     }
-    .details{
+    .details {
         flex-direction: column;
         margin-bottom: 20px;
-        margin-right: auto;
-        padding: 0;
+        /* margin-right: auto; */
+        width: 100%;
+        /* padding: 0; */
     }
     .item-image {
         flex-basis: auto;
-        height: 350px;
+        height: 600px;
     }
     .description-info {
         padding-left: inherit;
